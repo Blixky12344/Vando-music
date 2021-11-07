@@ -33,7 +33,6 @@ fetch("/dreams")
       let newDream = dreamsForm.elements.dream.value;
       dreams.push(newDream);
       appendNewDream(newDream);
-
       // reset form
       dreamsForm.reset();
       dreamsForm.elements.dream.focus();
